@@ -1,0 +1,18 @@
+{
+  "name": "social",
+  "version": "1.0.0",
+  "description": "api for social media backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sujal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.1",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.3"
+  }
+}
